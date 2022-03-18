@@ -15,7 +15,7 @@ SPIDER_MODULES = ['okulara.spiders']
 NEWSPIDER_MODULE = 'okulara.spiders'
 FEED_EXPORT_ENCODING = 'utf-8'
 FEED_FORMAT = "csv"
-FEED_URI = "okulara2.csv"
+FEED_URI = "okubilgileri.csv"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'okulara (+http://www.yourdomain.com)'
