@@ -3,8 +3,8 @@ import scrapy
 import urllib.parse
 
 
-class OkulumSpider(scrapy.Spider):
-    name = 'okulum'
+class KurumaraSpider(scrapy.Spider):
+    name = 'kurumara'
     allowed_domains = ['http://www.meb.gov.tr/baglantilar/okullar/?ILKODU=1']
     start_urls = ['http://www.meb.gov.tr/baglantilar/okullar/?ILKODU=1']
     okulbilgileri=[]

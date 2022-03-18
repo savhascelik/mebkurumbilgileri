@@ -2,11 +2,11 @@
 import scrapy
 import xlrd
 
-class ResimtelSpider(scrapy.Spider):
-    name = 'resimtel'
+class KurumbilgilerSpider(scrapy.Spider):
+    name = 'kurumbilgiler'
     allowed_domains = ['meb.k12.tr']
 
-    b = xlrd.open_workbook('C:\scrapy\okulara\kurumbilgilerson.xlsx')
+    b = xlrd.open_workbook('C:\scrapy\okulara\kurumaraduzenli.xlsx')
     b.sheet_names()
     sh = b.sheet_by_name(u'Sayfa1')
     first_column = sh.col_values(6)
@@ -33,5 +33,5 @@ class ResimtelSpider(scrapy.Spider):
             
             
 
-            yield kurumbilgileri2
+            yield kurumbilgileri
   
