@@ -1,6 +1,6 @@
 
 
-MEB'e bağlı kurumların  http://www.meb.gov.tr/baglantilar/okullar/ adresinden okunmasını sağlayan BOT.
+MEB'e bağlı kurumların " ad, adres, harita, telefon" bilgilerinin http://www.meb.gov.tr/baglantilar/okullar/ adresinden okunmasını sağlayan BOT.
 
 # kullanımı
 
