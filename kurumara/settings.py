@@ -15,7 +15,7 @@ SPIDER_MODULES = ['kurumara.spiders']
 NEWSPIDER_MODULE = 'kurumara.spiders'
 FEED_EXPORT_ENCODING = 'utf-8'
 FEED_FORMAT = "csv"
-FEED_URI = "kurumbilgileri2.csv"
+FEED_URI = "kurumbilgileri.csv"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'kurumara (+http://www.yourdomain.com)'
