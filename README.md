@@ -9,5 +9,6 @@ MEB'e bağlı kurumların  http://www.meb.gov.tr/baglantilar/okullar/ adresinden
 `scrapy crawl kurumara`
 
 Daha sonra okullara ait okuladi,resim,telefon,webadresi,adres bilgilerini çekmek için aşağıdaki kod bloğu girilerek kurumbilgiler botu çalıştırılabilir. Bu botun çalışması için kurumara botunun çalışması ve kurumbilgileri.csv dosyasının oluşmuş olması gerekmekte çünkü bot bu dosyadan okulhakkinda url adresinden kazıma yapmakta.
+Kod bloğundan sonra botun dizininde kurumdetbilgiler.csv dosyasi olusacaktir.
 
 `scrapy crawl kurumbilgiler -o kurumdetaybilgiler.csv`
