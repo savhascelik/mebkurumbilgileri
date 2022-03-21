@@ -2,7 +2,8 @@
 
 MEB'e bağlı kurumların  http://www.meb.gov.tr/baglantilar/okullar/ adresinden okunmasını sağlayan BOT.
 
-#kullanımı
+# kullanımı
+
 Öncelikle aşağıdaki kod bloğu ile kurumara botu ile botun dizininde kurumbilgileri.csv dosyası oluşturacak ve adresten "okuladi,okulsite,okulhakkinda,okulharita" bilgilerini çekecektir.
 
 `scrapy crawl kurumara`
